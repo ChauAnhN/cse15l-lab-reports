@@ -15,4 +15,14 @@ This specific command gave no outputs because there wasn't a specific argument l
 
 By providing a specific path (in this case being ```lecture1```) for the command ```cd``` we changed the current working directory from ```/home``` to ```/home/lecture1```. This is why we received the expected output, ```[user@sahara ~/lecture1]$```.
 
+3. ```file``` with a path to a *directory* as an argument.
+> <img width="419" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/b429262e-7e12-4797-8b9c-fc56bee40a84">
+
+**Working Directory:** ```/home/lecture1```
+
+As shown above, if we were to try to use ```cd``` on a file, we receive an error message stating ```Not a directory```. This is expected because the file ```es-mx.txt``` does not contain any files within it, meaning it is not a directory.
+
+
+
+
 
