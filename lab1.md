@@ -9,3 +9,4 @@ This specific command gave no outputs because there wasn't a specific argument l
 
 2. ```cd``` with a path to a *directory* as an argument.
 
+
