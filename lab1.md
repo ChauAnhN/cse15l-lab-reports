@@ -42,12 +42,29 @@ Since we specified that the command ```ls``` lists the folders within ```lecture
 
 **Working Directory:** ```/home```
 
-The output above is an error. Because we didn't change the directory of the root folder, ```ls``` was not able to access the contents of the files ```ar-eg```, ```Hello.java```, and ```README```. If we were to change the directory using the command ```cd```, we should be able to receive the content of the file, as shown in the image below.
+The output above is an error. Because we didn't change the directory of the root folder, ```ls``` was not able to access the contents of the files ```ar-eg.txt```, ```Hello.java```, and ```README```. If we were to change the directory using the command ```cd```, we should be able to receive the content of the file, as shown in the image below.
 > <img width="388" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/37175bc2-2a39-4e1e-ae0f-10bfb5c1d4d5">
 
 # **Command** ```cat```
 1. ```cat``` with *no* arguments
+> <img width="234" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/201e0222-db0a-4644-9c7c-7c30a9f72ebb">
 
+**Working Directory:** ```/home```
 
+Since the command ```cat``` is meant to print out the specific file (or files) listed, a no arguments ```cat``` doesn't produce any output since there aren't any files named for them to perform their function. This message is not an error. Rather, it's an expected response from the command ```cat``` based on its purpose. 
+
+2. ```cat``` with a path to a *directory* as an argument
+> <img width="352" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/59905cfa-fb4f-496a-80d6-18fb92686796">
+
+**Working Directory:** ```/home/lecture1```
+
+The output shown above is expected. Because ```cat``` is meant to print out the contents of a *file*, it cannot print out the content of a directory since those contain more files within. 
+
+3. ```cat``` with a path to a *file* as an argument
+> <img width="641" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/26f9b965-41d1-45b4-89a1-82dd4e3c4098">
+
+**Working Directory:** ```/home/lecture1```
+
+The resulting output is expected since the command ```cat``` is utilized to print out the two following files: ```Hello.java``` and ```README```. 
 
 
