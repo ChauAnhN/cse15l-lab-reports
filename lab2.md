@@ -1,8 +1,55 @@
 # **Lab 2 Report**
 
 ## **Part 1**
+```
 1. ChatServer Code File
+import java.io.IOException;
+import java.net.URI;
 
+class Handler implements URLHandler {
+    // The one bit of state on the server: a number that will be manipulated by
+    // various requests.
+    String message = null;
+    String user = null;
+    String memory = "";
+
+    public String handleRequest(URI url) {
+        if (url.getPath().equals("/add-message")) {
+            String[] parameters = url.getQuery().split("&");
+
+            String[] userMessage = parameters[0].split("=");
+            if (userMessage[0].equals("s")) {
+                message = userMessage[1];
+            }
+
+            String[] userName = parameters[1].split("=");
+            if (userName[0].equals("user")) {
+                user = userName[1];
+            }
+
+            memory += String.format("%s: %s\n", user, message);
+            return memory;
+
+        }
+
+        return "404 Not Found!";
+
+    }
+}
+
+class ChatServer {
+    public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
+
+        int port = Integer.parseInt(args[0]);
+
+        Server.start(port, new Handler());
+    }
+}
+```
 2. Output: Message 1
 > <img width="604" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/12e4a4db-37e5-423b-bc49-a86aaf7e2b01">
 
