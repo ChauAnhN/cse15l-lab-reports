@@ -1,8 +1,8 @@
 # **Lab 2 Report**
 
 ## **Part 1**
-```
 1. ChatServer Code File
+```
 import java.io.IOException;
 import java.net.URI;
 
