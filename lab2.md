@@ -21,7 +21,8 @@ Similar to the previous screenshot, the method `String handleRequest(URI url)` i
 > <img width="314" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/60e9b790-5c89-48d0-9e1a-9135283fd0d6">
 
 2. The absolute path to the ***public*** key
-> <img width="341" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/f7b75176-757a-4d14-b188-be72652dc334">
+> <img width="612" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/468893cd-0ab6-4ce6-b8d1-3ff28055ee97">
+
 
 3. Terminal interaction ***without*** being asked for a password
 > <img width="519" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/1efaa69e-2621-4fa0-b99a-84456bb8253c">
