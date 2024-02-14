@@ -47,10 +47,13 @@
 ```
 
 3. The Symptoms
-> Screenshot of the failure-inducing input test 
+
+> Screenshot of the failure-inducing input test
+
 > <img width="705" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/bfe29378-3dfe-48b6-9f66-70c8f554995c">
 
 > Screenshot of the regular input test
+
 > <img width="851" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/fbdfcd19-82d7-4ca8-99c1-e0a1f069595e">
 
 4. The Bug Located in the File
