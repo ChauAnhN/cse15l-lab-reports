@@ -58,6 +58,7 @@
 
 4. The Bug Located in the File
 > Before
+
 ```
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -84,6 +85,7 @@
 ## Part 2
 **The `less` Command**
 1. Previewing files (Source: ChatGPT)
+
 > Example 1: Using it on a text file in `./technical/biomed`.
 
 **INPUT:**
@@ -132,6 +134,7 @@ less diversity_priorities.txt
 As shown above, this command prints out the contents of the text file, including the blank line spaces, in the terminal. This is useful because it allows us to view the file contents without having to continually scroll through a file with large files and sub-files.
 
 2. Printing out the contents of a specific line from a file (Source: [I/O Flood Article](https://ioflood.com/blog/less-linux-command/))
+
 > Example 1: Using it on a text file in `./technical/biomed`.
 
 **INPUT:**
@@ -186,7 +189,8 @@ g50
 
 As illustrated by the code blocks, the command makes the terminal skip to the 50th line in the file and prints out the next line's contents. This is useful because it allows the user to look through the contents of the files faster.
 
-3. Searching for a specific word in a text file (Source: [Linux Handbook Article](https://linuxhandbook.com/less-command/)) 
+3. Searching for a specific word in a text file (Source: [Linux Handbook Article](https://linuxhandbook.com/less-command/))
+ 
 > Example 1: Using it on a text file in `./technical/biomed`.
 
 **INPUT:**
@@ -238,6 +242,7 @@ less diversity_priorities.txt
 As shown in the code blocks, the command `less`, followed by a `/` and the specified word, helps search for sections in a file that contain the specified word. This helps reduce the time it takes to search for key sections and phrases within a text file.
 
 4. Marking interesting points in a file (Source: [Linux Handbook Article](https://linuxhandbook.com/less-command/))
+
 > Example 1: Using it on a text file in `./technical/biomed`.
 
 **INPUT:**
