@@ -57,6 +57,7 @@
 > <img width="851" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/fbdfcd19-82d7-4ca8-99c1-e0a1f069595e">
 
 4. The Bug Located in the File
+
 > Before
 
 ```
@@ -85,6 +86,12 @@
 ## Part 2
 **The `less` Command**
 1. Previewing files (Source: ChatGPT)
+
+> Prompt Given to ChatGPT:
+
+```
+What are some unique and interesting alternative ways to use the UNIX command `less`?
+```
 
 > Example 1: Using it on a text file in `./technical/biomed`.
 
