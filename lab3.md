@@ -66,6 +66,7 @@
 ```
 
 > After
+
 ```
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
