@@ -1,8 +1,10 @@
 # Lab Report 3
 
 ## Part 1
+**Choosen Bug:** ArrayExamples.java
+
 1. A *failure-inducing* input
-```
+``` 
     int[] intArray = {1, 2, 3, 4, 5};
 
     @Test
