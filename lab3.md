@@ -153,7 +153,7 @@ g50
         . . .
 ```
 
-As shown above, the command makes the terminal skip 50 lines in the file and prints out the contents on the next line after skipping the previous ones. This is useful because it makes it easier to search through the file content faster compared to simply using the `enter` button, which just prints line by line.
+As shown above, the command makes the terminal skip 50 lines in the file and prints out the contents on the next line after skipping the previous ones. This is useful because it makes it easier to search through the file content faster compared to simply using the `enter` button, which just prints the text file line by line.
 
 > Example 2: Using it on a text file in `./technical/government/About_LSC`.
 
@@ -231,9 +231,9 @@ less diversity_priorities.txt
         facilitated the two-day session.
 ```
 
-As shown in the code blocks, the command `less`, followed by a `/` and the specific word, helps search for sections in a file that contain the specified word. This helps reduce the time it takes to search for key sections and phrases within a text file.
+As shown in the code blocks, the command `less`, followed by a `/` and the specified word, helps search for sections in a file that contain the specified word. This helps reduce the time it takes to search for key sections and phrases within a text file.
 
-4. Marking intieresting points in a file (Source: [Linux Handbook Article](https://linuxhandbook.com/less-command/))
+4. Marking interesting points in a file (Source: [Linux Handbook Article](https://linuxhandbook.com/less-command/))
 > Example 1: Using it on a text file in `./technical/biomed`.
 
 **INPUT:**
