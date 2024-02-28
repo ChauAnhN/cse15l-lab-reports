@@ -28,6 +28,9 @@ Here, I first `cd` the `lab7` directory so I can access the `.java` files in the
 
 Here, I used the command `vim` to open the file `ListExamples.java` and edit it. Once the file is opened, I utilized the `<K>` key to navigate upward to the line containing the error. Once I was on the correct line, I used the key `<L>` to move the cursor to the right of the number causing the error (which was `1` in this case). Afterwards, I used the key `<I>` to enter vim insert mode, `<DELETE>` to delete the 1, replaced it by typing the number `2`, `<ESC>` to escape vim insert mode, and `:wq` to save my edit and exit vim.
 
+**8. Run the tests, demonstrating that they now succeed**
+
+> **Keys Used:** 
 
 
 
