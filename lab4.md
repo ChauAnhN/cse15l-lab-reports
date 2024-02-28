@@ -1,4 +1,4 @@
-# Lab 1 Report 
+# Lab 4 Report 
 
 **4. Log into ieng6**
 > <img width="459" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/cb58b62b-d017-472f-a30c-18b01fb7ff03">
