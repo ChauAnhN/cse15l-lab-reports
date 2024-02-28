@@ -33,5 +33,14 @@ Here, I used the command `vim` to open the file `ListExamples.java` and edit it.
 
 > **Keys Used:** `bash <SPACE> test.sh`
   
+Here, I decided to use the command `bash` to run the tester file since it's faster than the `javac` `lib` command I used earlier. It's an effective command since it executes the earlier `javac` `lib` command, which is stored in a separate fie called `test.sh`.
 
+**9. Commit and push the resulting change to your Github account (you can pick any commit message!)**
+> <img width="320" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/3c3e35bb-7267-48a7-9d14-dcf52d6f8901">
+
+> <img width="292" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/fc6e6343-7db6-4aad-b0f7-2d4936a43046">
+
+> **Keys Used:** `git <SPACE> add <SPACE> .`, `git <SPACE> commit <SPACE> -m <SPACE> <SHIFT> "Edits made <SHIFT> "`, `git push`
+
+Here, the command `git add` adds all the changes made to the desktop file and prepares them to be committed. After typing in that command, I used the command `git commit -m` to create a new commit for Github, and the command `git push` adds the commits to Github.
 
