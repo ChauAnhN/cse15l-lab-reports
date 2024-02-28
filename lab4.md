@@ -42,5 +42,5 @@ Here, I decided to use the command `bash` to run the tester file since it's fast
 
 > **Keys Used:** `git <SPACE> add <SPACE> .`, `git <SPACE> commit <SPACE> -m <SPACE> <SHIFT> "Edits made <SHIFT> "`, `git push`
 
-Here, the command `git add` adds all the changes made to the desktop file and prepares them to be committed. After typing in that command, I used the command `git commit -m` to create a new commit for Github, and the command `git push` adds the commits to Github.
+Here, I first used the command `git add` to add all the changes made to the desktop file and prepare them to be committed to Github. After typing in that command, I used the command `git commit -m` to create a new commit for Github. Lastly, I used the command `git push` to add the commits to Github.
 
