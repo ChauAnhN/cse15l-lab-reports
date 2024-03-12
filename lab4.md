@@ -1,25 +1,25 @@
 # Lab 4 Report 
 
 **4. Log into ieng6**
-> <img width="459" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/cb58b62b-d017-472f-a30c-18b01fb7ff03">
+> <img width="728" alt="311888912-45dc6628-71f9-4351-93a0-89dee6261329" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/7bbe8b79-c2b3-4ebd-84bd-b634985355a9">
 
 > **Keys Used:** `ssh <SPACE> chn032@ieng6.ucsd.edu <ENTER>`, `yes <ENTER>`
 
-For this step, I first used `ssh` to log into ieng6 with my UCSD email. Then, when the terminal prompted me to confirm if I really wanted to log in, I typed in the command `yes`, which allowed me to get into the desired account. 
+The input is highlighted in orange and the output is shown in the rest of the photo. For this step, I first used `ssh` to log into ieng6 with my UCSD email. Then, when the terminal prompted me to confirm if I really wanted to log in, I typed in the command `yes`, which allowed me to get into the desired account. 
 
 **5. Clone your fork of the repository from your Github account (using the SSH URL)**
-> <img width="414" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/3a4457cd-d741-43dd-bdb7-cc899855f10f">
+> <img width="437" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/924ab328-80c1-45ae-a56d-6ce38a2f642f">
 
-> **Keys Used:** `git <SPACE> clone <SPACE> https://github.com/ChauAnhN/lab7 <ENTER>`
+> **Keys Used:** `git <SPACE> clone <SPACE> git@github.com:ChauAnhN/labreport4.git <ENTER>`
 
-This step didn't require as many steps as the first one did. Here, I simply used the command `git clone` to make a copy of the forked repo into my VS Code. 
+This step didn't require as many steps as the first one did. Here, I simply used the command `git clone`, followed by the ssh URL, to make a copy of the forked repo into my VS Code. 
 
 **6. Run the tests, demonstrating that they fail**
-> <img width="675" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/4fcf008d-a907-4884-9305-a8fc09d2ae97">
+> <img width="492" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/a4758d0d-0307-4b90-bb04-08d66006b29f">
 
-> **Keys Used:** `cd <SPACE> lab7/ <ENTER>`, `<CTRL> <P> javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`, `<CTRL> <P> java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore <SPACE> ListExamplesTests.java`
+> **Keys Used:** `cd <SPACE> lab7 <ENTER>`, `bash <SPACE> test.sh`
 
-Here, I first `cd` the `lab7` directory so I can access the `.java` files in the folder. Then I copy and pasted the `javac` `lib` command to compile the tester file. Finally, I ran the test using `java` `-cp`, which commands the tester file to run its test cases.
+Here, I first `cd` the `lab7` directory so I can access the `.java` files in the folder. Then I compiled and ran the tests using the command `bash` and the file `test.sh`, which contains the `javac` and `java` commands.
 
 **7. Edit the code file to fix the failing test**
 > <img width="310" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/a22b8bbe-de8a-4a42-99e5-5363a172598d">
