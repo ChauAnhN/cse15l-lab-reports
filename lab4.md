@@ -19,7 +19,7 @@ This step didn't require as many steps as the first one did. Here, I simply used
 
 > **Keys Used:** `cd <SPACE> lab7 <ENTER>`, `bash <SPACE> test.sh`
 
-Here, I first `cd` the `lab7` directory so I can access the `.java` files in the folder. Then I compiled and ran the tests using the command `bash` and the file `test.sh`, which contains the `javac` and `java` commands.
+Here, I first `cd` the `lab7` directory so I can access the `.java` files in the folder. Then I compiled and ran the tests using the command `bash` and the file `test.sh`, which contains the `javac` and `java` commands. Since `test.sh` holds these commands, it can effectively execute them using `bash`.
 
 **7. Edit the code file to fix the failing test**
 > <img width="310" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/a22b8bbe-de8a-4a42-99e5-5363a172598d">
@@ -29,16 +29,16 @@ Here, I first `cd` the `lab7` directory so I can access the `.java` files in the
 Here, I used the command `vim` to open the file `ListExamples.java` and edit it. Once the file is opened, I utilized the `<K>` key to navigate upward to the line containing the error. Once I was on the correct line, I used the key `<L>` to move the cursor to the right of the number causing the error (which was `1` in this case). Afterwards, I used the key `<I>` to enter vim insert mode, `<DELETE>` to delete the 1, replaced it by typing the number `2`, `<ESC>` to escape vim insert mode, and `:wq` to save my edit and exit vim.
 
 **8. Run the tests, demonstrating that they now succeed**
-> <img width="241" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/6e210dc6-0919-4467-9823-6bfc9eb4b0af">
+> <img width="251" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/14c6368d-1a99-486d-81e1-ab10cd74562e">
 
 > **Keys Used:** `bash <SPACE> test.sh`
   
-Here, I decided to use the command `bash` to run the tester file since it's faster than the `javac` `lib` command I used earlier. It's an effective command since it executes the earlier `javac` `lib` command, which is stored in a separate file called `test.sh`.
+Here, I again used the command `bash` to run the tester file. It's an effective command since it executes the earlier `javac` `lib` command, which is stored in a separate file called `test.sh`. 
 
 **9. Commit and push the resulting change to your Github account (you can pick any commit message!)**
 > <img width="320" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/3c3e35bb-7267-48a7-9d14-dcf52d6f8901">
 
-> <img width="292" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/fc6e6343-7db6-4aad-b0f7-2d4936a43046">
+> <img width="430" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/95e95672-9f0f-4c78-8274-81de6d9bad13">
 
 > **Keys Used:** `git <SPACE> add <SPACE> .`, `git <SPACE> commit <SPACE> -m <SPACE> <SHIFT> "Edits made <SHIFT> "`, `git push`
 
