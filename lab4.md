@@ -43,8 +43,6 @@ Here, I again used the command `bash` to run the tester file. It's an effective 
 
 **9. Commit and push the resulting change to your Github account (you can pick any commit message!)**
 
-> <img width="320" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/3c3e35bb-7267-48a7-9d14-dcf52d6f8901">
-
 > <img width="430" alt="image" src="https://github.com/ChauAnhN/cse15l-lab-reports/assets/130714987/95e95672-9f0f-4c78-8274-81de6d9bad13">
 
 > **Keys Used:** `git <SPACE> add <SPACE> .`, `git <SPACE> commit <SPACE> -m <SPACE> <SHIFT> "Edits made <SHIFT> "`, `git push`
