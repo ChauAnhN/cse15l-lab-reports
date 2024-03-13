@@ -137,7 +137,7 @@ Tests run: 2,  Failures: 1
 
 ---
 
-> Student: Oh, it turns out that one of my if statements was incorrect. Instead of assigning `index1 += 1` while `while(index2 < list2.size())`, I should've assigned `index2 += 1`. Below is my correct code! Thank you for the help.
+> Student: Oh, it turns out that one of my if statements was incorrect. Instead of assigning `index1 += 1` while `while(index2 < list2.size())`, I should've assigned `index2 += 1` instead. Below is my correct code! Thank you for the help.
 
 **CODE:**
 
