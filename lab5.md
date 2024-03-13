@@ -1,6 +1,6 @@
 # Lab 5 Report
 
-> Student: Hello! I'm lost as to how to fix my code, and I can't seem to pinpoint it after looking through my code. Below is my code and test cases.
+> Student: Hello! I'm lost as to how to fix my code, and I can't seem to pinpoint it after looking through my code. Below is my code and test cases. My directory is the `lab7` folder.
 
 **CODE:**
 
@@ -131,7 +131,11 @@ FAILURES!!!
 Tests run: 2,  Failures: 1
 ```
 
+---
+
 > Educational Staff: Run `bash test.sh` again and look at the error where the line occurred.
+
+---
 
 > Student: Oh, it turns out that one of my if statements was incorrect. Instead of assigning `index1 += 1` while `while(index2 < list2.size())`, I should've assigned `index2 += 1`. Below is my correct code! Thank you for the help.
 
